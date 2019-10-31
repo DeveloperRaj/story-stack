@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand|Staatliches&display=swap');
+
+.headerContainer {
+	width: 100%;
+	height: 90px;
+	background: linear-gradient(60deg, #e94f37, #ffa500);
+}
+
+.siteLogo {
+	width: 20%;
+	height: 100%;
+	/*background-color: #987345;*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 42px;
+	color: #f6f7eb;
+	font-family: 'Staatliches', cursive;
+	float: left;
+}
+
+.siteLogo u{
+	color: #fffc31;
+}
+
+.btn{
+	display: none;
+	width: 30%;
+	height: 100%;
+	float: right;
+	font-size: 26px;
+	color: #f6f7eb;
+	background-color: transparent;
+	border: none;
+	font-family: 'Quicksand', sans-serif;
+	text-transform: uppercase;
+	font-weight: bolder;
+}
+
+.links {
+	width: 80%;
+	height: 100%;
+	/*background-color: #987341;*/
+	float: left;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.links ul li {
+	display: inline;
+	margin-right: 15px;
+	padding-right: 15px;
+	border-right: 1px #fafafa solid;
+}
+
+.links ul li:nth-child(1){
+	padding-left: 15px;
+	border-left: 1px #fafafa solid;
+}
+
+.linkItem {
+	font-size: 18px;
+	color: #f6f7eb;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: .4s;
+	font-family: 'Quicksand', sans-serif;
+}
+
+.linkItem:hover {
+	text-decoration: underline;
+	color: #5c415d;
+}
+
+@media only screen and (max-width: 600px){
+	.siteLogo {
+		width: 50%;
+	}
+	.links {
+		float: right;
+		width: 100%;
+		height: 240px;
+		background-color: #112233;
+		padding-bottom: 25px;
+		text-align: center;
+		display: none;
+	}
+	.links ul {
+		display: flex;
+		height: 100%;
+		flex-direction: column;
+		justify-content: space-around;
+		align-items: center;
+	}
+	.links ul li {
+		width: 50%;
+		border-right: 1px #fafafa solid;
+		border-left: 1px #fafafa solid;
+	}
+	.links ul li:nth-child(1){
+		padding-left: 0px;
+		border-left: 1px #fafafa solid;
+	}
+	.btn {
+		display: initial;
+	}
+}
