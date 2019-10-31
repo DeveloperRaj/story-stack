@@ -62,6 +62,10 @@ function Home() {
 	            />
 	          </div>
 	        </div>
+	        <Banner 
+	          bannerHead="About Developer"
+	          bannerBody="Hello my name is Raj Chhatrala, and I am learning Front End development with React.js. I am intrested to know your suggetions, please contact me from links in footer"
+	        />
         </Fragment>
 	)
 }
