@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|Josefin+Sans&display=swap');
+
+.bannerContiner {
+	width: 100%;
+	height: 320px;
+	background-image: linear-gradient(rgba(100, 100, 100, 0.6), rgba(100, 100, 100, 0.6)), url('../../images/banner1.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.bannerHeader, 
+.bannerBody {
+	width: 50%;
+	height: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+    font-family: 'Josefin Sans', sans-serif; 
+}
+
+.bannerHeader {
+	color:  #fffc31;
+	font-size: 36px;
+}
+
+.bannerBody {
+	color:  #f6f7eb;
+	font-size: 18px;
+	font-family: 'Comfortaa', cursive;
+	align-items: flex-start;
+}
+
+@media only screen and (max-width: 600px){
+	.bannerContiner {
+		width: 100%;
+		height: 210px;
+	}
+	.bannerHeader, 
+	.bannerBody {
+		width: 100%;
+		height: 100%;
+	}
+	.bannerHeader {
+		font-size: 24px;
+	}
+
+	.bannerBody {
+		font-size: 14px;
+	}
+
+}
