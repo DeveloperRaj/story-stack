@@ -8,7 +8,7 @@ function Footer() {
 		<footer>
 			<div className="footerItem">
 				<div className="footerItemHeading">
-					Thanks
+					GitHub
 				</div>
 				<div className="footerItemData">
 					<ul>
