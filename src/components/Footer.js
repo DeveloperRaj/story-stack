@@ -34,7 +34,7 @@ function Footer() {
 					<ul>
 						<li><a href="https://www.instagram.com/raj_chhatrala/">Instagram</a></li>
 						<li><a href="https://www.sololearn.com/Profile/4991698">SoloLearn</a></li>
-						<li><a href="#">jslearner066@gmail.com</a></li>
+						<li><a href="www.google.com">jslearner066@gmail.com</a></li>
 					</ul>
 				</div>
 			</div>
