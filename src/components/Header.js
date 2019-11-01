@@ -29,11 +29,10 @@ function Header(props) {
 			<div className="links" id="nav">
 				<ul>
 					<li><Link to="/" className="linkItem">home</Link></li>
-					<li><Link to="/" className="linkItem">topstories</Link></li>
-					<li><Link to="/" className="linkItem">askstories</Link></li>
-					<li><Link to="/" className="linkItem">showstories</Link></li>
-					<li><Link to="/" className="linkItem">jobstories</Link></li>
-					<li><Link to="/" className="linkItem">users</Link></li>
+					<li><Link to="/topstories" className="linkItem">topstories</Link></li>
+					<li><Link to="/askstories" className="linkItem">askstories</Link></li>
+					<li><Link to="/showstories" className="linkItem">showstories</Link></li>
+					<li><Link to="/jobstories" className="linkItem">jobstories</Link></li>
 				</ul>
 			</div>
 		</header>
